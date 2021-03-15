@@ -6,4 +6,5 @@ process.env.BASE_URL = "/";
 
 module.exports = merge(baseConfig, {
   mode: process.env.NODE_ENV,
+  devtool: "source-map",
 });
